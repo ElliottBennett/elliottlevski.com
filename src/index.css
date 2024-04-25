@@ -1,0 +1,62 @@
+.image{
+  width: 100%;
+}
+.icon{
+  border-radius: 50%;
+}
+.handwriting-nav{
+  width: 40%;
+}
+.handwriting-subtitle{
+  width: 60% !important;
+}
+.video-subtitle{
+  width: 25% !important
+}
+.nav-link{
+  padding-bottom:0% !important ;
+}
+.handwriting{
+  width: 100%;
+}
+.navigation{
+
+}
+.bg-body-tertiary{
+  --bs-bg-opacity:0 !important;
+
+}
+.opaque{
+  opacity: 0.8;
+}
+.overlay{
+  position: absolute !important;
+  width: 40%;
+  top: 10 !important;
+  z-index: 10;
+}
+
+.home{
+  background-image: url("./assets/background-images/homeSunset.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video{
+  background-image: url("./assets/background-images/videoTree.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.art{
+  background-image: url("./assets/background-images/artSand.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.performance{
+  background-image: url("./assets/background-images/performanceCloud.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
