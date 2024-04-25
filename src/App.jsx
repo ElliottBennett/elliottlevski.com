@@ -31,7 +31,7 @@ function App({}) {
   return (
     <>
     {/* <Nav/> */}
-    <RouterProvider router={router} />
+    <RouterProvider basename={"/elliottlevski.com/"} router={router} />
 
 
     </>
