@@ -1,9 +1,9 @@
 {
 
   "name": "elliottportfolio",
+  "homepage": "https://elliottbennett.github.io/elliottlevski.com/",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://elliottbennett.github.io/elliottlevski.com/",
   "type": "module",
   "scripts": {
     "dev": "vite",
