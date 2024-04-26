@@ -23,7 +23,9 @@ const router = createBrowserRouter([
     path: "/video",
     element: <Video/>
   },
-])
+
+],
+{  basename: "/elliottlevski.com"})
 
 
 function App({}) {
