@@ -1,5 +1,6 @@
 {
-  "base": "/",
+  "homepage": "https://elliottbennett.github.io/elliottlevski.com/",
+
   "name": "elliottportfolio",
   "private": true,
   "version": "0.0.0",
