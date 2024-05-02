@@ -14,27 +14,27 @@ import LiveWriting from '../assets/handwriting/Live.png'
 export default function navigation() {
   return (
     <div className='navigation'>    
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="md" className="bg-body-tertiary">
     <Container>
       <Row>
-        <Col lg={2}>
+        <Col xl={2} lg={2} md={2} sm={4} xs={4}>
         <img className='image icon' src={Chaplin} alt="Elliott's face next to a drawing of Charlie Chaplin"/>
         </Col>
-        <Col lg={10} className='d-flex align-items-end '>
+        <Col xl={10} lg={10} md={10} sm={4} xs={4} className='d-flex align-items-end '>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">
+              <Nav.Link href="elliottlevski.com/">
                 <img className='handwriting-nav' src={HomeWriting} />
               </Nav.Link>
-              <Nav.Link href="/video">
+              <Nav.Link href="elliottlevski.com/video">
                  <img className='handwriting-nav' src={VideoWriting} />
               </Nav.Link>
-              <Nav.Link href="/performance">
+              <Nav.Link href="elliottlevski.com/performance">
                 <img className='handwriting-nav' src={LiveWriting} />
               </Nav.Link>
-              <Nav.Link href="/art">
+              <Nav.Link href="elliottlevski.com/art">
               <img className='handwriting-nav' src={ArtWriting} />
               </Nav.Link>
 

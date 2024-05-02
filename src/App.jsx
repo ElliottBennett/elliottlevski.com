@@ -5,6 +5,7 @@ import Art from './pages/art';
 import Performance from './pages/performance';
 import Video from './pages/video';
 import Nav from './components/navigation'
+import Footer from './components/footer'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,7 @@ function App({}) {
     <>
     {/* <Nav/> */}
     <RouterProvider  router={router} />
+    <Footer/>
 
 
     </>

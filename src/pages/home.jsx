@@ -10,12 +10,12 @@ import BioText from '../assets/handwriting/Intro-Text.png'
 
 export default function home() {
   return (
-    <div className='home'>
+    <div className='home '>
            <Nav/>
-        <Container>
+        <Container className=''>
          
             <Row className='d-flex justify-content-center mt-4'>
-                <Col lg={6}>
+                <Col lg={6} >
                 <img className='handwriting' src={ElliottBennett}/>
                 <div className=' d-flex justify-content-end'>
                 <img className='handwriting-subtitle' src={JourneymanFilmaker}/>
@@ -23,8 +23,8 @@ export default function home() {
                 </Col>
 
             </Row>
-            <Row className='mt-4'>
-                <Col lg={6}>
+            <Row className='mt-4 '>
+                <Col className="white-background mb-5 m-3" lg={6} md={6} xs={10}>
                 <img className='image overlay ' src={BioText}/>
                 <img className='image opaque' src={ElliottSunset} alt="Elliott wearing a hat in front of a mountain sunset"/>
                 </Col>
