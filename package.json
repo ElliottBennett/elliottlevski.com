@@ -8,10 +8,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "add-domain": "echo 'elliottlevski.com' > build/CNAME",
 
-    "predeploy": "npm run build",
-    "deploy": "npm run add-domain && gh-pages -d dist",
+
 
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
